@@ -1,0 +1,541 @@
+.bg3 {
+  background-color: #fff;
+  width: 120rem;
+  height: 154.438rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.group-icon12, .group-icon13, .mark-icon6 {
+  width: 28.75%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  position: absolute;
+  inset: 0 71.25% 0 0;
+  overflow: hidden;
+}
+
+.group-icon12, .group-icon13 {
+  width: 100%;
+  height: 37.31%;
+  bottom: 62.69%;
+  right: 0;
+}
+
+.group-icon13 {
+  width: 60.63%;
+  inset: 62.47% 39.05% .22% .32%;
+}
+
+.wordmark6 {
+  width: 66.21%;
+  height: 92.2%;
+  position: absolute;
+  inset: 4% 0 3.8% 33.79%;
+}
+
+.logos7 {
+  width: 17.5rem;
+  height: 3.125rem;
+}
+
+.home3, .logos7 {
+  position: relative;
+}
+
+.fantasy-tools4, .purchase3 {
+  width: 6.563rem;
+  display: none;
+  position: relative;
+}
+
+.purchase3 {
+  width: 4.438rem;
+}
+
+.home-parent1 {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.875rem;
+  display: flex;
+}
+
+.get-started6 {
+  line-height: 1.25rem;
+  position: relative;
+}
+
+.button14, .button15 {
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: .937rem 1.375rem;
+  display: flex;
+}
+
+.button14 {
+  border: 1px solid #ff4a45;
+}
+
+.button15 {
+  color: #fff;
+  background-color: #ff4a45;
+}
+
+.button-parent1 {
+  color: #ff4a45;
+  justify-content: flex-start;
+  gap: .625rem;
+}
+
+.button-parent1, .frame-parent57, .header3 {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.frame-parent57 {
+  justify-content: flex-start;
+  gap: 1.25rem;
+}
+
+.header3 {
+  box-sizing: border-box;
+  border-bottom: 1px solid #e8e8e8;
+  justify-content: space-between;
+  width: 120rem;
+  padding: 1.875rem 3.125rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.your-fantasy {
+  margin: 0;
+}
+
+.your-fantasy-our-container {
+  letter-spacing: .01em;
+  width: 62.688rem;
+  font-weight: 500;
+  line-height: 5rem;
+  display: inline-block;
+  position: relative;
+}
+
+.as-of-february1 {
+  align-self: stretch;
+  line-height: 2.125rem;
+  position: relative;
+}
+
+.as-of-february-2024-myfantasy-wrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 36.25rem;
+  display: flex;
+}
+
+.originally-myfantasyleague-wa1 {
+  color: #767676;
+  flex-shrink: 0;
+  width: 38.5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  display: inline-block;
+  position: relative;
+}
+
+.frame-parent58, .your-fantasy-our-passion-group {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4.125rem;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.your-fantasy-our-passion-group {
+  flex-direction: column;
+  gap: 3.125rem;
+  font-size: 4.375rem;
+  position: absolute;
+  top: 13.125rem;
+  left: 20.563rem;
+}
+
+.our-products1 {
+  width: 30.438rem;
+  font-weight: 500;
+  line-height: 4.375rem;
+  display: inline-block;
+  position: relative;
+}
+
+.object-icon2 {
+  width: 94.875rem;
+  height: 54.438rem;
+  position: relative;
+}
+
+.myfantasyleaguecom {
+  color: #1b1464;
+  font-weight: 500;
+}
+
+.our-premier-product-container {
+  width: 38.5rem;
+  line-height: 2.125rem;
+  display: inline-block;
+  position: relative;
+}
+
+.our-premier-product-is-an-onli-wrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 38.5rem;
+  display: flex;
+}
+
+.we-also-had {
+  width: 38.5rem;
+  line-height: 1.875rem;
+  display: inline-block;
+  position: relative;
+}
+
+.button16 {
+  color: #fff;
+  background-color: #ff4a45;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: .937rem 1.375rem;
+  font-size: 1rem;
+  display: flex;
+}
+
+.we-also-had-a-pc-based-league-parent {
+  color: #767676;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 3.125rem;
+  width: 38.5rem;
+  font-size: 1.25rem;
+  display: flex;
+}
+
+.frame-parent59, .our-products-group {
+  text-align: left;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.875rem;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.our-products-group {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #f6f6f6;
+  flex-direction: column;
+  align-items: center;
+  gap: 6.25rem;
+  width: 120rem;
+  padding: 12.5rem;
+  font-size: 3.75rem;
+  position: absolute;
+  top: 46.25rem;
+  left: calc(50% - 960px);
+}
+
+.our-promise1, .we-want-your1 {
+  flex-shrink: 0;
+  display: inline-block;
+  position: relative;
+}
+
+.our-promise1 {
+  width: 36.313rem;
+  font-weight: 500;
+}
+
+.we-want-your1 {
+  color: #767676;
+  width: 38.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.our-promise-group {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4.062rem;
+  font-size: 1.875rem;
+  display: flex;
+  position: absolute;
+  top: 166.938rem;
+  left: 20.563rem;
+}
+
+.create-a-free3 {
+  align-self: stretch;
+  font-weight: 500;
+  line-height: 3.125rem;
+  position: relative;
+}
+
+.try-myfantasyleague-for3 {
+  align-self: stretch;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  position: relative;
+}
+
+.create-a-free-trial-league-tod-parent1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+  width: 62.75rem;
+  display: flex;
+}
+
+.iconarrow-up-right8 {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.button17 {
+  text-align: left;
+  color: #ff4a45;
+  background-color: #fff;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+  padding: .937rem 1.375rem;
+  font-size: 1rem;
+  display: flex;
+}
+
+.cta3, .rectangle-icon {
+  width: 120rem;
+  position: absolute;
+  left: 0;
+}
+
+.cta3 {
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  background-color: #ff6561;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3.125rem;
+  padding: 6.25rem 28.625rem;
+  font-size: 2.5rem;
+  display: flex;
+  top: 184.688rem;
+}
+
+.rectangle-icon {
+  height: 30.063rem;
+  top: 0;
+}
+
+.privacy-policy-parent4 {
+  text-align: left;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+  display: flex;
+}
+
+.copyright-1995-2024-first-pi-parent1 {
+  box-sizing: border-box;
+  text-align: center;
+  border-top: 1px solid #ffffff1a;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 120rem;
+  padding: 1.25rem 9.375rem;
+  display: flex;
+  position: absolute;
+  top: 26.375rem;
+  left: 0;
+}
+
+.about-us9 {
+  align-self: stretch;
+  line-height: 1.875rem;
+  position: relative;
+}
+
+.about-us-parent1, .privacy-policy-parent5 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.about-us-parent1 {
+  flex: 1;
+  display: flex;
+}
+
+.privacy-policy-parent5 {
+  width: 15.519rem;
+  display: none;
+}
+
+.iconlocate-fixed3 {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.iconlocate-fixed-wrapper1 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: .125rem 0;
+  display: flex;
+}
+
+.first-pick-labs3 {
+  flex: 1;
+  line-height: 1.75rem;
+  position: relative;
+}
+
+.frame-parent62, .frame-parent63, .iconmail-parent1 {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: .937rem;
+  display: flex;
+}
+
+.frame-parent62, .iconmail-parent1 {
+  align-items: center;
+}
+
+.frame-parent62 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.social-mediatwitter-2-negat3 {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.social-mediatwitter-2-negat-wrapper1 {
+  background-color: #ffffff1a;
+  border-radius: 44px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: .937rem;
+  display: flex;
+}
+
+.follow-us-parent1, .frame-parent61 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.follow-us-parent1 {
+  color: #767676;
+  align-self: stretch;
+  gap: .625rem;
+  font-size: 1.25rem;
+}
+
+.frame-parent61 {
+  color: #fff;
+  flex: 1;
+  gap: 1.875rem;
+  font-size: 1.125rem;
+}
+
+.frame-parent60, .logos8 {
+  position: absolute;
+  top: 6.25rem;
+}
+
+.frame-parent60 {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.25rem;
+  width: 65.813rem;
+  font-size: 1.25rem;
+  display: flex;
+  left: calc(50% - 243px);
+}
+
+.logos8 {
+  width: 17.5rem;
+  height: 3.125rem;
+  left: calc(50% - 810px);
+}
+
+.this-site-is3 {
+  width: 22.375rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  display: inline-block;
+  position: absolute;
+  top: 11.25rem;
+  left: 9.375rem;
+}
+
+.footer3 {
+  color: #767676;
+  width: 120rem;
+  height: 30.063rem;
+  position: absolute;
+  top: 213.438rem;
+  left: 0;
+}
+
+.about-us7 {
+  text-align: left;
+  color: #0b0a0a;
+  background-color: #fff;
+  width: 100%;
+  height: 243.5rem;
+  font-family: Inter;
+  font-size: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+/*# sourceMappingURL=about-us.6fc44ddc.css.map */

@@ -1,0 +1,603 @@
+.bg2 {
+  background-color: #fff;
+  width: 120rem;
+  height: 195.438rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.group-icon8, .group-icon9, .mark-icon4 {
+  width: 28.75%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  position: absolute;
+  inset: 0 71.25% 0 0;
+  overflow: hidden;
+}
+
+.group-icon8, .group-icon9 {
+  width: 100%;
+  height: 37.31%;
+  bottom: 62.69%;
+  right: 0;
+}
+
+.group-icon9 {
+  width: 60.63%;
+  inset: 62.47% 39.05% .22% .32%;
+}
+
+.wordmark4 {
+  width: 66.21%;
+  height: 92.2%;
+  position: absolute;
+  inset: 4% 0 3.8% 33.79%;
+}
+
+.logos5 {
+  width: 17.5rem;
+  height: 3.125rem;
+}
+
+.home2, .logos5 {
+  position: relative;
+}
+
+.fantasy-tools3, .purchase2 {
+  width: 6.563rem;
+  display: none;
+  position: relative;
+}
+
+.purchase2 {
+  width: 4.438rem;
+}
+
+.home-container {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.875rem;
+  display: flex;
+}
+
+.get-started4 {
+  line-height: 1.25rem;
+  position: relative;
+}
+
+.button11, .button12 {
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: .937rem 1.375rem;
+  display: flex;
+}
+
+.button11 {
+  border: 1px solid #ff4a45;
+}
+
+.button12 {
+  color: #fff;
+  background-color: #ff4a45;
+}
+
+.button-container {
+  color: #ff4a45;
+  justify-content: flex-start;
+  gap: .625rem;
+}
+
+.button-container, .frame-parent48, .header2 {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.frame-parent48 {
+  justify-content: flex-start;
+  gap: 1.25rem;
+}
+
+.header2 {
+  box-sizing: border-box;
+  border-bottom: 1px solid #e8e8e8;
+  justify-content: space-between;
+  width: 120rem;
+  padding: 1.875rem 3.125rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.frequently-asked-question1 {
+  font-weight: 500;
+  line-height: 4.375rem;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 388px);
+}
+
+.how-do-i7 {
+  align-self: stretch;
+  font-weight: 500;
+  line-height: 1.75rem;
+  position: relative;
+}
+
+.to-join-a7 {
+  width: 59.375rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  display: none;
+  position: relative;
+}
+
+.icon15 {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.faq7, .icon14 {
+  flex-direction: row;
+  display: flex;
+}
+
+.icon14 {
+  border-radius: 34px;
+  justify-content: center;
+  align-items: center;
+  padding: .125rem 0;
+}
+
+.faq7 {
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 1.875rem;
+}
+
+.frame-child39 {
+  background-color: #e8e8e8;
+  align-self: stretch;
+  height: .063rem;
+  position: relative;
+}
+
+.faq-group, .faqs1 {
+  width: 62.75rem;
+  position: absolute;
+}
+
+.faq-group {
+  text-align: left;
+  color: #767676;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.875rem;
+  font-size: 1.5rem;
+  display: flex;
+  top: 10.625rem;
+  left: 0;
+}
+
+.faqs1 {
+  text-align: center;
+  height: 45.75rem;
+  font-size: 3.75rem;
+  top: 78.375rem;
+  left: calc(50% - 502px);
+}
+
+.create-a-free2 {
+  align-self: stretch;
+  font-weight: 500;
+  line-height: 3.125rem;
+  position: relative;
+}
+
+.try-myfantasyleague-for2 {
+  align-self: stretch;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  position: relative;
+}
+
+.create-a-free-trial-league-tod-container {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+  width: 62.75rem;
+  display: flex;
+}
+
+.iconarrow-up-right7 {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.button13 {
+  text-align: left;
+  color: #ff4a45;
+  background-color: #fff;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+  padding: .937rem 1.375rem;
+  font-size: 1rem;
+  display: flex;
+}
+
+.cta2, .footer-inner {
+  width: 120rem;
+  position: absolute;
+  left: 0;
+}
+
+.cta2 {
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  background-color: #ff6561;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3.125rem;
+  padding: 6.25rem 28.625rem;
+  font-size: 2.5rem;
+  display: flex;
+  top: 136.625rem;
+}
+
+.footer-inner {
+  height: 30.063rem;
+  top: 0;
+}
+
+.privacy-policy-parent2 {
+  text-align: left;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+  display: flex;
+}
+
+.copyright-1995-2024-first-pi-container {
+  box-sizing: border-box;
+  text-align: center;
+  border-top: 1px solid #ffffff1a;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 120rem;
+  padding: 1.25rem 9.375rem;
+  display: flex;
+  position: absolute;
+  top: 26.375rem;
+  left: 0;
+}
+
+.about-us6 {
+  align-self: stretch;
+  line-height: 1.875rem;
+  position: relative;
+}
+
+.about-us-container, .privacy-policy-parent3 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.about-us-container {
+  flex: 1;
+  display: flex;
+}
+
+.privacy-policy-parent3 {
+  width: 15.519rem;
+  display: none;
+}
+
+.iconlocate-fixed-frame {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: .125rem 0;
+  display: flex;
+}
+
+.first-pick-labs2 {
+  flex: 1;
+  line-height: 1.75rem;
+  position: relative;
+}
+
+.frame-parent51, .frame-parent52, .iconmail-container {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: .937rem;
+  display: flex;
+}
+
+.frame-parent51, .iconmail-container {
+  align-items: center;
+}
+
+.frame-parent51 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.social-mediatwitter-2-negat2 {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.social-mediatwitter-2-negat-frame {
+  background-color: #ffffff1a;
+  border-radius: 44px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: .937rem;
+  display: flex;
+}
+
+.follow-us-container {
+  color: #767676;
+  flex-direction: column;
+  align-self: stretch;
+  gap: .625rem;
+  font-size: 1.25rem;
+}
+
+.follow-us-container, .frame-parent49, .frame-parent50 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-parent50 {
+  color: #fff;
+  flex-direction: column;
+  flex: 1;
+  gap: 1.875rem;
+  font-size: 1.125rem;
+}
+
+.frame-parent49 {
+  flex-direction: row;
+  gap: 1.25rem;
+  width: 65.813rem;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 6.25rem;
+  left: calc(50% - 243px);
+}
+
+.group-icon11 {
+  width: 60.63%;
+  max-width: 100%;
+  height: 37.31%;
+  max-height: 100%;
+  position: absolute;
+  inset: 62.69% 39.05% 0 .32%;
+  overflow: hidden;
+}
+
+.logos6 {
+  width: 17.5rem;
+  height: 3.125rem;
+  position: absolute;
+  top: 6.25rem;
+  left: calc(50% - 810px);
+}
+
+.this-site-is2 {
+  width: 22.375rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  display: inline-block;
+  position: absolute;
+  top: 11.25rem;
+  left: 9.375rem;
+}
+
+.footer2 {
+  color: #767676;
+  width: 120rem;
+  height: 30.063rem;
+  position: absolute;
+  top: 165.375rem;
+  left: 0;
+}
+
+.our-partners3 {
+  letter-spacing: .01em;
+  width: 62.688rem;
+  font-weight: 500;
+  line-height: 5rem;
+  display: inline-block;
+  position: relative;
+}
+
+.at-myfantasyleaguecom-we {
+  align-self: stretch;
+  line-height: 2.125rem;
+  position: relative;
+}
+
+.at-myfantasyleaguecom-we-are-wrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 36.25rem;
+  display: flex;
+}
+
+.we-rely-on {
+  color: #767676;
+  flex-shrink: 0;
+  width: 38.5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  display: inline-block;
+  position: relative;
+}
+
+.frame-parent55, .our-partners-group {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-parent55 {
+  flex-direction: row;
+  gap: 4.125rem;
+  font-size: 1.5rem;
+}
+
+.our-partners-group {
+  flex-direction: column;
+  gap: 3.125rem;
+}
+
+.group-inner {
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+  border: 1px solid #e8e8e8;
+  width: 23.75rem;
+  height: 14.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-7-icon1 {
+  object-fit: cover;
+  width: 13.625rem;
+  height: 2.5rem;
+  position: absolute;
+  top: 6rem;
+  left: 5.063rem;
+}
+
+.group-child1, .group-div {
+  width: 23.75rem;
+  height: 14.5rem;
+  position: relative;
+}
+
+.group-child1 {
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-2-icon1, .image-3-icon1, .image-5-icon1 {
+  object-fit: cover;
+  width: 5.313rem;
+  height: 5.313rem;
+  position: absolute;
+  top: 4.563rem;
+  left: 9.25rem;
+}
+
+.image-3-icon1, .image-5-icon1 {
+  width: 10.625rem;
+  height: 3.438rem;
+  top: 5.5rem;
+  left: 6.563rem;
+}
+
+.image-5-icon1 {
+  width: 8.063rem;
+  height: 4.75rem;
+  top: 4.875rem;
+  left: 7.875rem;
+}
+
+.group-parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.image-10-icon, .image-4-icon1, .image-8-icon1 {
+  object-fit: cover;
+  width: 5.313rem;
+  height: 5.313rem;
+  position: absolute;
+  top: 4.563rem;
+  left: 9.188rem;
+}
+
+.image-10-icon, .image-8-icon1 {
+  width: 5.938rem;
+  height: 5.938rem;
+  top: 4.25rem;
+  left: 8.875rem;
+}
+
+.image-10-icon {
+  width: 8.5rem;
+  height: 7.125rem;
+  top: 3.688rem;
+  left: 7.625rem;
+}
+
+.frame-parent54, .frame-parent56 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-parent54 {
+  align-items: center;
+  gap: 6.25rem;
+  font-size: 4.375rem;
+  position: absolute;
+  top: 13.125rem;
+  left: 12.5rem;
+}
+
+.our-partners2 {
+  text-align: left;
+  color: #0b0a0a;
+  background-color: #fff;
+  width: 100%;
+  height: 195.438rem;
+  font-family: Inter;
+  font-size: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+/*# sourceMappingURL=our-partners.81837116.css.map */

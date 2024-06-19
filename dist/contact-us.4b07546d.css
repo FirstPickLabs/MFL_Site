@@ -1,0 +1,636 @@
+.bg4 {
+  background-color: #fff;
+  width: 120rem;
+  height: 197.063rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.group-icon16, .group-icon17, .mark-icon8 {
+  width: 28.75%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  position: absolute;
+  inset: 0 71.25% 0 0;
+  overflow: hidden;
+}
+
+.group-icon16, .group-icon17 {
+  width: 100%;
+  height: 37.31%;
+  bottom: 62.69%;
+  right: 0;
+}
+
+.group-icon17 {
+  width: 60.63%;
+  inset: 62.47% 39.05% .22% .32%;
+}
+
+.wordmark8 {
+  width: 66.21%;
+  height: 92.2%;
+  position: absolute;
+  inset: 4% 0 3.8% 33.79%;
+}
+
+.logos9 {
+  width: 17.5rem;
+  height: 3.125rem;
+}
+
+.home4, .logos9 {
+  position: relative;
+}
+
+.contact-us5, .fantasy-tools5, .purchase4 {
+  width: 6.563rem;
+  display: none;
+  position: relative;
+}
+
+.contact-us5, .purchase4 {
+  width: 4.438rem;
+}
+
+.contact-us5 {
+  flex-shrink: 0;
+  width: 5.5rem;
+  display: inline-block;
+}
+
+.home-parent2 {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.875rem;
+  display: flex;
+}
+
+.button18, .button19 {
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: .937rem 1.375rem;
+  display: flex;
+}
+
+.button18 {
+  border: 1px solid #ff4a45;
+}
+
+.button19 {
+  color: #fff;
+  background-color: #ff4a45;
+}
+
+.button-parent2 {
+  color: #ff4a45;
+  justify-content: flex-start;
+  gap: .625rem;
+}
+
+.button-parent2, .frame-parent65, .header4 {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.frame-parent65 {
+  justify-content: flex-start;
+  gap: 1.25rem;
+}
+
+.header4 {
+  box-sizing: border-box;
+  border-bottom: 1px solid #e8e8e8;
+  justify-content: space-between;
+  width: 120rem;
+  padding: 1.875rem 3.125rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.create-a-free4 {
+  align-self: stretch;
+  font-weight: 500;
+  line-height: 3.125rem;
+  position: relative;
+}
+
+.try-myfantasyleague-for4 {
+  align-self: stretch;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  position: relative;
+}
+
+.create-a-free-trial-league-tod-parent2 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+  width: 62.75rem;
+  display: flex;
+}
+
+.iconarrow-up-right9 {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.button20 {
+  text-align: left;
+  color: #ff4a45;
+  background-color: #fff;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+  padding: .937rem 1.375rem;
+  font-size: 1rem;
+  display: flex;
+}
+
+.cta4, .footer-child1 {
+  width: 120rem;
+  position: absolute;
+  left: 0;
+}
+
+.cta4 {
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  background-color: #ff6561;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3.125rem;
+  padding: 6.25rem 28.625rem;
+  font-size: 2.5rem;
+  display: flex;
+  top: 138.25rem;
+}
+
+.footer-child1 {
+  height: 30.063rem;
+  top: 0;
+}
+
+.privacy-policy-parent6 {
+  text-align: left;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+  display: flex;
+}
+
+.copyright-1995-2024-first-pi-parent2 {
+  box-sizing: border-box;
+  text-align: center;
+  border-top: 1px solid #ffffff1a;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 120rem;
+  padding: 1.25rem 9.375rem;
+  display: flex;
+  position: absolute;
+  top: 26.375rem;
+  left: 0;
+}
+
+.about-us11 {
+  align-self: stretch;
+  line-height: 1.875rem;
+  position: relative;
+}
+
+.about-us-parent2, .privacy-policy-parent7 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.about-us-parent2 {
+  flex: 1;
+  display: flex;
+}
+
+.privacy-policy-parent7 {
+  width: 15.519rem;
+  display: none;
+}
+
+.iconlocate-fixed4 {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.iconlocate-fixed-wrapper2 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: .125rem 0;
+  display: flex;
+}
+
+.first-pick-labs4 {
+  flex: 1;
+  line-height: 1.75rem;
+  position: relative;
+}
+
+.frame-parent68, .frame-parent69, .iconmail-parent2 {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: .937rem;
+  display: flex;
+}
+
+.frame-parent68, .iconmail-parent2 {
+  align-items: center;
+}
+
+.frame-parent68 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.social-mediatwitter-2-negat4 {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.social-mediatwitter-2-negat-wrapper2 {
+  background-color: #ffffff1a;
+  border-radius: 44px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: .937rem;
+  display: flex;
+}
+
+.follow-us-parent2, .frame-parent67 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.follow-us-parent2 {
+  color: #767676;
+  align-self: stretch;
+  gap: .625rem;
+  font-size: 1.25rem;
+}
+
+.frame-parent67 {
+  color: #fff;
+  flex: 1;
+  gap: 1.875rem;
+  font-size: 1.125rem;
+}
+
+.frame-parent66, .logos10 {
+  position: absolute;
+  top: 6.25rem;
+}
+
+.frame-parent66 {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.25rem;
+  width: 65.813rem;
+  font-size: 1.25rem;
+  display: flex;
+  left: calc(50% - 243px);
+}
+
+.logos10 {
+  width: 17.5rem;
+  height: 3.125rem;
+  left: calc(50% - 810px);
+}
+
+.this-site-is4 {
+  width: 22.375rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  display: inline-block;
+  position: absolute;
+  top: 11.25rem;
+  left: 9.375rem;
+}
+
+.footer4 {
+  color: #767676;
+  width: 120rem;
+  height: 30.063rem;
+  position: absolute;
+  top: 167rem;
+  left: 0;
+}
+
+.online-support {
+  margin: 0;
+}
+
+.online-support-form-container {
+  letter-spacing: .01em;
+  width: 38.5rem;
+  font-weight: 500;
+  line-height: 5rem;
+  display: inline-block;
+  position: relative;
+}
+
+.the-fastest-way {
+  align-self: stretch;
+  line-height: 2.125rem;
+  position: relative;
+}
+
+.the-fastest-way-to-get-in-touc-wrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 38.5rem;
+  display: flex;
+}
+
+.for-any-league-related {
+  color: #767676;
+  width: 38.5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  display: inline-block;
+  position: relative;
+}
+
+.frame-parent72, .online-support-form-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-parent72 {
+  gap: 1.25rem;
+  font-size: 1.5rem;
+}
+
+.online-support-form-parent {
+  gap: 1.875rem;
+}
+
+.first-name {
+  line-height: 1.25rem;
+  position: relative;
+}
+
+.iconarrow-up-right10 {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  display: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.button-parent3, .button21 {
+  flex-direction: row;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.button21 {
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 10px;
+  align-items: center;
+  gap: .75rem;
+  width: 22.313rem;
+  padding: .937rem 1.375rem;
+}
+
+.button-parent3 {
+  align-items: flex-start;
+  gap: 1.937rem;
+}
+
+.button25 {
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 10px;
+  gap: .75rem;
+  width: 46.563rem;
+  padding: .937rem 1.375rem;
+}
+
+.button-wrapper, .button25 {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.button26, .button27 {
+  border-radius: 10px;
+  flex-direction: row;
+  gap: .75rem;
+  padding: .937rem 1.375rem;
+  display: flex;
+}
+
+.button26 {
+  box-sizing: border-box;
+  background-color: #fff;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  height: 7.25rem;
+}
+
+.button27 {
+  color: #fff;
+  background-color: #ff4a45;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame-parent71, .frame-parent73 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-parent73 {
+  color: #767676;
+  flex-direction: column;
+  gap: 3.125rem;
+  font-size: 1rem;
+}
+
+.frame-parent71 {
+  background-color: #f6f6f6;
+  flex-direction: row;
+  gap: 9.937rem;
+  padding: 12.5rem;
+  font-size: 3.75rem;
+  position: absolute;
+  top: 43rem;
+  left: calc(50% - 960px);
+}
+
+.our-partners4 {
+  align-self: stretch;
+  font-weight: 500;
+  position: relative;
+}
+
+.were-dedicated-to2 {
+  color: #767676;
+  width: 62.75rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  display: none;
+  position: relative;
+}
+
+.our-partners-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  width: 62.75rem;
+  display: flex;
+}
+
+.image-2-icon2, .image-7-icon2 {
+  object-fit: cover;
+  width: 13.625rem;
+  height: 2.5rem;
+  position: relative;
+}
+
+.image-2-icon2 {
+  width: 5.313rem;
+  height: 5.313rem;
+}
+
+.image-3-icon2, .image-5-icon2, .image-8-icon2 {
+  object-fit: cover;
+  width: 10.625rem;
+  height: 3.438rem;
+  position: relative;
+}
+
+.image-5-icon2, .image-8-icon2 {
+  width: 8.063rem;
+  height: 4.75rem;
+}
+
+.image-8-icon2 {
+  width: 5.938rem;
+  height: 5.938rem;
+}
+
+.frame-parent75, .image-7-group {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8.125rem;
+  display: flex;
+}
+
+.frame-parent75 {
+  text-align: center;
+  flex-direction: column;
+  gap: 6.25rem;
+  font-size: 3.75rem;
+  position: absolute;
+  top: 109rem;
+  left: 4.375rem;
+}
+
+.get-in-touch-container {
+  letter-spacing: .01em;
+  width: 62.688rem;
+  font-weight: 500;
+  line-height: 5rem;
+  display: inline-block;
+  position: relative;
+}
+
+.the-fastest-way-to-get-in-touc-container {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 36.25rem;
+  display: flex;
+}
+
+.for-any-league-related1 {
+  color: #767676;
+  flex-shrink: 0;
+  width: 38.5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  display: inline-block;
+  position: relative;
+}
+
+.frame-parent76, .get-in-touch-with-us-parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4.125rem;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.get-in-touch-with-us-parent {
+  flex-direction: column;
+  gap: 3.125rem;
+  font-size: 4.375rem;
+  position: absolute;
+  top: 13.125rem;
+  left: 20.563rem;
+}
+
+.contact-us4 {
+  text-align: left;
+  color: #0b0a0a;
+  background-color: #fff;
+  width: 100%;
+  height: 197.063rem;
+  font-family: Inter;
+  font-size: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+/*# sourceMappingURL=contact-us.4b07546d.css.map */

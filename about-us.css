@@ -1,0 +1,498 @@
+.bg3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 120rem;
+  height: 154.438rem;
+}
+.group-icon12,
+.group-icon13,
+.mark-icon6 {
+  position: absolute;
+  height: 100%;
+  width: 28.75%;
+  top: 0;
+  right: 71.25%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-icon12,
+.group-icon13 {
+  height: 37.31%;
+  width: 100%;
+  right: 0;
+  bottom: 62.69%;
+}
+.group-icon13 {
+  width: 60.63%;
+  top: 62.47%;
+  right: 39.05%;
+  bottom: 0.22%;
+  left: 0.32%;
+}
+.wordmark6 {
+  position: absolute;
+  height: 92.2%;
+  width: 66.21%;
+  top: 4%;
+  right: 0;
+  bottom: 3.8%;
+  left: 33.79%;
+}
+.logos7 {
+  width: 17.5rem;
+  height: 3.125rem;
+}
+.home3,
+.logos7 {
+  position: relative;
+}
+.fantasy-tools4,
+.purchase3 {
+  width: 6.563rem;
+  position: relative;
+  display: none;
+}
+.purchase3 {
+  width: 4.438rem;
+}
+.home-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.875rem;
+}
+.get-started6 {
+  position: relative;
+  line-height: 1.25rem;
+}
+.button14,
+.button15 {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.937rem 1.375rem;
+}
+.button14 {
+  border: 1px solid #ff4a45;
+}
+.button15 {
+  background-color: #ff4a45;
+  color: #fff;
+}
+.button-parent1 {
+  justify-content: flex-start;
+  gap: 0.625rem;
+  color: #ff4a45;
+}
+.button-parent1,
+.frame-parent57,
+.header3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frame-parent57 {
+  justify-content: flex-start;
+  gap: 1.25rem;
+}
+.header3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  width: 120rem;
+  justify-content: space-between;
+  padding: 1.875rem 3.125rem;
+}
+.your-fantasy {
+  margin: 0;
+}
+.your-fantasy-our-container {
+  width: 62.688rem;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 5rem;
+  font-weight: 500;
+  display: inline-block;
+}
+.as-of-february1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 2.125rem;
+}
+.as-of-february-2024-myfantasy-wrapper {
+  width: 36.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.originally-myfantasyleague-wa1 {
+  width: 38.5rem;
+  position: relative;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #767676;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame-parent58,
+.your-fantasy-our-passion-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4.125rem;
+  font-size: 1.5rem;
+}
+.your-fantasy-our-passion-group {
+  position: absolute;
+  top: 13.125rem;
+  left: 20.563rem;
+  flex-direction: column;
+  gap: 3.125rem;
+  font-size: 4.375rem;
+}
+.our-products1 {
+  width: 30.438rem;
+  position: relative;
+  line-height: 4.375rem;
+  font-weight: 500;
+  display: inline-block;
+}
+.object-icon2 {
+  width: 94.875rem;
+  position: relative;
+  height: 54.438rem;
+}
+.myfantasyleaguecom {
+  font-weight: 500;
+  color: #1b1464;
+}
+.our-premier-product-container {
+  width: 38.5rem;
+  position: relative;
+  line-height: 2.125rem;
+  display: inline-block;
+}
+.our-premier-product-is-an-onli-wrapper {
+  width: 38.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.we-also-had {
+  width: 38.5rem;
+  position: relative;
+  line-height: 1.875rem;
+  display: inline-block;
+}
+.button16 {
+  border-radius: 10px;
+  background-color: #ff4a45;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.937rem 1.375rem;
+  font-size: 1rem;
+  color: #fff;
+}
+.we-also-had-a-pc-based-league-parent {
+  width: 38.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.125rem;
+  font-size: 1.25rem;
+  color: #767676;
+}
+.frame-parent59,
+.our-products-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.875rem;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.our-products-group {
+  position: absolute;
+  top: 46.25rem;
+  left: calc(50% - 960px);
+  background-color: #f6f6f6;
+  width: 120rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 12.5rem;
+  box-sizing: border-box;
+  gap: 6.25rem;
+  text-align: center;
+  font-size: 3.75rem;
+}
+.our-promise1,
+.we-want-your1 {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.our-promise1 {
+  width: 36.313rem;
+  font-weight: 500;
+}
+.we-want-your1 {
+  width: 38.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #767676;
+}
+.our-promise-group {
+  position: absolute;
+  top: 166.938rem;
+  left: 20.563rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4.062rem;
+  font-size: 1.875rem;
+}
+.create-a-free3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 3.125rem;
+  font-weight: 500;
+}
+.try-myfantasyleague-for3 {
+  align-self: stretch;
+  position: relative;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+.create-a-free-trial-league-tod-parent1 {
+  width: 62.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.25rem;
+}
+.iconarrow-up-right8 {
+  width: 1.25rem;
+  position: relative;
+  height: 1.25rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button17 {
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.937rem 1.375rem;
+  gap: 0.75rem;
+  text-align: left;
+  font-size: 1rem;
+  color: #ff4a45;
+}
+.cta3,
+.rectangle-icon {
+  position: absolute;
+  left: 0;
+  width: 120rem;
+}
+.cta3 {
+  top: 184.688rem;
+  background-color: #ff6561;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6.25rem 28.625rem;
+  box-sizing: border-box;
+  gap: 3.125rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.rectangle-icon {
+  top: 0;
+  height: 30.063rem;
+}
+.privacy-policy-parent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.25rem;
+  text-align: left;
+}
+.copyright-1995-2024-first-pi-parent1 {
+  position: absolute;
+  top: 26.375rem;
+  left: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  width: 120rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 9.375rem;
+  text-align: center;
+}
+.about-us9 {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.875rem;
+}
+.about-us-parent1,
+.privacy-policy-parent5 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.25rem;
+}
+.about-us-parent1 {
+  flex: 1;
+  display: flex;
+}
+.privacy-policy-parent5 {
+  width: 15.519rem;
+  display: none;
+}
+.iconlocate-fixed3 {
+  width: 1.5rem;
+  position: relative;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconlocate-fixed-wrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.125rem 0;
+}
+.first-pick-labs3 {
+  flex: 1;
+  position: relative;
+  line-height: 1.75rem;
+}
+.frame-parent62,
+.frame-parent63,
+.iconmail-parent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.937rem;
+}
+.frame-parent62,
+.iconmail-parent1 {
+  align-items: center;
+}
+.frame-parent62 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+.social-mediatwitter-2-negat3 {
+  width: 1.125rem;
+  position: relative;
+  height: 1.125rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.social-mediatwitter-2-negat-wrapper1 {
+  border-radius: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.937rem;
+}
+.follow-us-parent1,
+.frame-parent61 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.follow-us-parent1 {
+  align-self: stretch;
+  gap: 0.625rem;
+  font-size: 1.25rem;
+  color: #767676;
+}
+.frame-parent61 {
+  flex: 1;
+  gap: 1.875rem;
+  font-size: 1.125rem;
+  color: #fff;
+}
+.frame-parent60,
+.logos8 {
+  position: absolute;
+  top: 6.25rem;
+}
+.frame-parent60 {
+  left: calc(50% - 243px);
+  width: 65.813rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.25rem;
+  font-size: 1.25rem;
+}
+.logos8 {
+  left: calc(50% - 810px);
+  width: 17.5rem;
+  height: 3.125rem;
+}
+.this-site-is3 {
+  position: absolute;
+  top: 11.25rem;
+  left: 9.375rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  display: inline-block;
+  width: 22.375rem;
+}
+.footer3 {
+  position: absolute;
+  top: 213.438rem;
+  left: 0;
+  width: 120rem;
+  height: 30.063rem;
+  color: #767676;
+}
+.about-us7 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 243.5rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 1rem;
+  color: #0b0a0a;
+  font-family: Inter;
+}
