@@ -55,10 +55,6 @@ a, a:hover, a:focus, button, button:focus {
   padding: 3rem !important;
 }
 
-.w-100 {
-  width: 100% !important;
-}
-
 .section {
   background-color: #fff;
   padding-top: 80px;
@@ -189,6 +185,21 @@ a, a:hover, a:focus, button, button:focus {
   border-color: #ff4a45;
 }
 
+.btn-outline {
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  background-color: #0000;
+  border: 1px solid #fff;
+  transition: all .5s;
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active, .btn-outline.focus, .btn-outline:active, .btn-outline:focus, .btn-outline:hover, .open > .dropdown-toggle.btn-outline {
+  color: #fff;
+  background: none;
+  border-color: #ff4a45;
+}
+
 .vertical-content {
   display: -webkit-flex;
   display: -moz-flex;
@@ -312,6 +323,14 @@ a, a:hover, a:focus, button, button:focus {
 .header_title_container {
   max-width: 78rem;
   margin: 0 auto;
+}
+
+.header_title_small {
+  letter-spacing: .01em;
+  align-self: stretch;
+  margin-bottom: 1rem;
+  font-size: 3.75rem;
+  line-height: 5rem;
 }
 
 .home-desk {
@@ -547,9 +566,9 @@ a, a:hover, a:focus, button, button:focus {
 
 .price_box .price_name p {
   background-color: #5584ff21;
-  border-radius: 30px;
-  padding: 8px 15px;
-  font-size: 14px;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
   display: inline-block;
 }
 
@@ -563,7 +582,7 @@ a, a:hover, a:focus, button, button:focus {
 }
 
 .price_box .price_desc {
-  max-width: 250px;
+  max-width: 300px;
 }
 
 .price_box .price_features p {
@@ -682,7 +701,16 @@ ul.footer_menu_list li a {
   font-size: 16px;
 }
 
+li {
+  padding: 5px 0;
+  line-height: 1rem !important;
+}
+
 @media (width <= 768px) {
+  .container-narrow {
+    padding: 0 4rem;
+  }
+
   .custom-nav {
     margin-top: 0;
     background-color: #fff !important;
@@ -797,11 +825,19 @@ ul.footer_menu_list li a {
   .features_desc .features-icon {
     top: 20% !important;
   }
+
+  .container-narrow {
+    padding: 0 1rem;
+  }
 }
 
 @media screen and (width >= 1200px) {
   .container {
     max-width: 98%;
+  }
+
+  .container-narrow {
+    padding: 0 15rem;
   }
 }
 
@@ -809,12 +845,30 @@ ul.footer_menu_list li a {
   font-weight: 800 !important;
 }
 
+.container-black {
+  color: #fff;
+  background-color: #000;
+  padding: 3rem;
+}
+
+.image-parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8.125rem;
+  display: flex;
+}
+
+.image-icon {
+  width: 100%;
+}
+
 .frame-container {
   text-align: left;
   background-color: #f7f7f7;
   align-items: flex-start;
   gap: 1.875rem;
-  padding: 0 3rem;
+  padding: 3rem;
   font-size: 1.875rem;
 }
 
@@ -878,5 +932,190 @@ ul.footer_menu_list li a {
   line-height: 1.875rem;
   display: inline-block;
   position: relative;
+}
+
+.article-parent {
+  color: #fff;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: .325rem;
+  display: flex;
+}
+
+.article-date {
+  color: #cdcdcd;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.article-content {
+  box-sizing: border-box;
+  color: #fff;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.25rem;
+  width: 100%;
+  padding: 3rem;
+  font-size: 2.5rem;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.article-title {
+  margin-top: -1rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.article-title-small {
+  margin-top: -1rem;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.article-text {
+  align-self: stretch;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  position: relative;
+}
+
+.article-parent {
+  display: inline-block;
+  position: relative;
+}
+
+.faq-parent {
+  text-align: left;
+  color: #767676;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.875rem;
+  font-size: 1.5rem;
+  display: flex;
+  top: 10.625rem;
+  left: 0;
+}
+
+.faq {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 1.875rem;
+  display: flex;
+}
+
+.faq-content {
+  flex-direction: column;
+  flex: 1;
+  gap: 1.25rem;
+}
+
+.faq-question {
+  align-self: stretch;
+  font-weight: 500;
+  line-height: 1.75rem;
+  position: relative;
+}
+
+.faq-answer {
+  width: 59.375rem;
+  margin: .5rem 0;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  transition: all .3s ease-in-out;
+  display: none;
+  position: relative;
+}
+
+.cta {
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  background-color: #ff6561;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3.125rem;
+  padding: 6.25rem 28.625rem;
+  font-size: 2.5rem;
+  display: flex;
+  top: 701.375rem;
+}
+
+.container-cta {
+  color: #fff;
+  text-align: center;
+  background-color: #ff6561;
+  padding: 5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.cta-title {
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 3.125rem;
+}
+
+.frame-parent15 {
+  color: #fff;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.875rem;
+  font-size: 1.125rem;
+  display: flex;
+}
+
+.comprehensive-league-managemen-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 1.25rem;
+  display: flex;
+}
+
+.frame-parent17, .iconmail-parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: .937rem;
+  display: flex;
+}
+
+.iconlocate-fixed-wrapper {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: .125rem 0;
+  display: flex;
+}
+
+.first-pick-labs {
+  flex: 1;
+  line-height: 1.75rem;
+  position: relative;
+}
+
+.follow-us-parent {
+  color: #767676;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: .625rem;
+  font-size: 1.25rem;
+  display: flex;
 }
 /*# sourceMappingURL=home.7b15def8.css.map */

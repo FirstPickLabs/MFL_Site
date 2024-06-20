@@ -848,6 +848,7 @@ ul.footer_menu_list li a {
 
 li {
   line-height: 1rem !important;
+  padding: 5px 0;
 }
 
 /*==========================
@@ -1134,13 +1135,12 @@ li {
 .faq-answer {
   display: none;
   transition: all 0.3s ease-in-out;
-}
-.faq-answer {
   width: 59.375rem;
   position: relative;
   font-size: 1.25rem;
   line-height: 1.875rem;
   display: none;
+  margin: 0.5rem 0;
 }
 
 .cta {
