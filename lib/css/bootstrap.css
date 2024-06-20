@@ -101,10 +101,10 @@
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: #0b0a0a;
   --bs-link-color: #ff4a45;
-  --bs-link-color-rgb: 13, 110, 253;
+  --bs-link-color-rgb: 255, 74, 69;
   --bs-link-decoration: underline;
-  --bs-link-hover-color: #0a58ca;
-  --bs-link-hover-color-rgb: 10, 88, 202;
+  --bs-link-hover-color: #ff4a45;
+  --bs-link-hover-color-rgb: 255, 74, 69;
   --bs-code-color: #d63384;
   --bs-highlight-color: #212529;
   --bs-highlight-bg: #fff3cd;
@@ -3198,10 +3198,10 @@ fieldset:disabled .btn {
   --bs-btn-border-color: #ff4a45;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #0b5ed7;
-  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-hover-border-color: #ff4a45;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #0a58ca;
+  --bs-btn-active-bg: #ff4a45;
   --bs-btn-active-border-color: #0a53be;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;

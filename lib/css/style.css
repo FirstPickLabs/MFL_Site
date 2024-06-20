@@ -90,9 +90,6 @@ button:focus {
 .p-3 {
   padding: 3rem !important;
 }
-.w-100 {
-  width: 100% !important;
-}
 .section {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -250,6 +247,29 @@ button:focus {
   background-color: #ff4a45;
   border-color: #ff4a45;
   color: #fff;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+  text-transform: capitalize;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active,
+.btn-outline.focus,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline:hover,
+.open > .dropdown-toggle.btn-outline {
+  background: transparent;
+  border-color: #ff4a45;
+  color: white;
 }
 
 .vertical-content {
@@ -413,7 +433,13 @@ button:focus {
   max-width: 78rem;
   margin: 0 auto;
 }
-
+.header_title_small {
+  font-size: 3.75rem;
+  letter-spacing: 0.01em;
+  align-self: stretch;
+  line-height: 5rem;
+  margin-bottom: 1rem;
+}
 .home-desk {
   position: relative;
   top: 60px;
@@ -676,11 +702,11 @@ button:focus {
 }
 
 .price_box .price_name p {
-  border-radius: 30px;
+  border-radius: 1rem;
   background-color: rgba(85, 132, 255, 0.13);
-  padding: 8px 15px;
+  padding: 1rem;
   display: inline-block;
-  font-size: 14px;
+  font-size: 2rem;
 }
 
 .price_box .plan_price h3 sup {
@@ -693,7 +719,7 @@ button:focus {
 }
 
 .price_box .price_desc {
-  max-width: 250px;
+  max-width: 300px;
 }
 
 .price_box .price_features p {
@@ -820,11 +846,18 @@ ul.footer_menu_list li a {
   padding-top: 40px;
 }
 
+li {
+  line-height: 1rem !important;
+}
+
 /*==========================
         10.RESPONSIVE
 ============================*/
 
 @media (max-width: 768px) {
+  .container-narrow {
+    padding: 0 4rem;
+  }
   .custom-nav {
     margin-top: 0px;
     padding: 10px 0px !important;
@@ -919,6 +952,9 @@ ul.footer_menu_list li a {
   .features_desc .features-icon {
     top: 20% !important;
   }
+  .container-narrow {
+    padding: 0 1rem;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -926,19 +962,36 @@ ul.footer_menu_list li a {
     /* max-width: 1140px; */
     max-width: 98%;
   }
+  .container-narrow {
+    padding: 0 15rem;
+  }
 }
 
 .bold {
   font-weight: 800 !important;
 }
-
+.container-black {
+  background-color: black;
+  color: white;
+  padding: 3rem;
+}
+.image-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8.125rem;
+}
+.image-icon {
+  width: 100%;
+}
 .frame-container {
   text-align: left;
   align-items: flex-start;
   gap: 1.875rem;
   font-size: 1.875rem;
   background-color: #f7f7f7;
-  padding: 0 3rem;
+  padding: 3rem;
 }
 .frame-parent {
   box-sizing: border-box;
@@ -995,4 +1048,176 @@ ul.footer_menu_list li a {
   line-height: 1.875rem;
   display: inline-block;
   position: relative;
+}
+
+.article-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.325rem;
+  color: white;
+}
+.article-date {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #cdcdcd;
+}
+.article-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 3rem;
+  box-sizing: border-box;
+  gap: 1.25rem;
+  font-size: 2.5rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.article-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-top: -1rem;
+}
+.article-title-small {
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-top: -1rem;
+}
+.article-text {
+  align-self: stretch;
+  position: relative;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.article-parent {
+  position: relative;
+  display: inline-block;
+}
+
+.faq-parent {
+  top: 10.625rem;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.875rem;
+  text-align: left;
+  font-size: 1.5rem;
+  color: #767676;
+}
+.faq {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.875rem;
+  display: flex;
+  flex-direction: row;
+}
+.faq-content {
+  flex: 1;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.faq-question {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+.faq-answer {
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+.faq-answer {
+  width: 59.375rem;
+  position: relative;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  display: none;
+}
+
+.cta {
+  top: 701.375rem;
+  background-color: #ff6561;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6.25rem 28.625rem;
+  box-sizing: border-box;
+  gap: 3.125rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.container-cta {
+  padding: 5rem;
+  color: white;
+  background-color: #ff6561;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+.cta-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 3.125rem;
+  padding-bottom: 1rem;
+}
+
+.frame-parent15 {
+  flex: 1;
+  flex-direction: column;
+  gap: 1.875rem;
+  font-size: 1.125rem;
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comprehensive-league-managemen-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.25rem;
+}
+.frame-parent17,
+.iconmail-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.937rem;
+}
+.iconlocate-fixed-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.125rem 0;
+}
+.first-pick-labs {
+  flex: 1;
+  position: relative;
+  line-height: 1.75rem;
+}
+.follow-us-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-direction: column;
+  gap: 0.625rem;
+  font-size: 1.25rem;
+  color: #767676;
 }
