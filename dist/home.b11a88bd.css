@@ -1,0 +1,1294 @@
+.bg {
+  background-color: #fff;
+  width: 120rem;
+  height: 760.188rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.group-icon, .group-icon1, .mark-icon {
+  width: 28.75%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  position: absolute;
+  inset: 0 71.25% 0 0;
+  overflow: hidden;
+}
+
+.group-icon, .group-icon1 {
+  width: 100%;
+  height: 37.31%;
+  bottom: 62.69%;
+  right: 0;
+}
+
+.group-icon1 {
+  width: 60.63%;
+  inset: 62.47% 39.05% .22% .32%;
+}
+
+.wordmark {
+  width: 66.21%;
+  height: 92.2%;
+  position: absolute;
+  inset: 4% 0 3.8% 33.79%;
+}
+
+.logos {
+  width: 17.5rem;
+  height: 3.125rem;
+  margin: -50px 0 0 -50px;
+}
+
+.logos > img {
+  width: 17.5rem;
+}
+
+.home, .logos {
+  position: relative;
+}
+
+.fantasy-tools, .purchase {
+  width: 6.563rem;
+  display: none;
+  position: relative;
+}
+
+.purchase {
+  width: 4.438rem;
+}
+
+.home-parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.875rem;
+  display: flex;
+}
+
+.get-started {
+  line-height: 1.25rem;
+  position: relative;
+}
+
+.button, .button1 {
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: .937rem 1.375rem;
+  display: flex;
+}
+
+.button {
+  border: 1px solid #ff4a45;
+}
+
+.button1 {
+  color: #fff;
+  background-color: #ff4a45;
+}
+
+.button-parent {
+  color: #ff4a45;
+  justify-content: flex-start;
+  gap: .625rem;
+}
+
+.button-parent, .frame-parent, .header {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.frame-parent {
+  justify-content: flex-start;
+  gap: 1.25rem;
+}
+
+.header {
+  box-sizing: border-box;
+  border-bottom: 1px solid #e8e8e8;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.875rem 3.125rem;
+  font-size: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.your-ultimate-fantasy {
+  letter-spacing: .01em;
+  align-self: stretch;
+  font-weight: 500;
+  line-height: 5rem;
+  position: relative;
+}
+
+.are-you-ready {
+  color: #767676;
+  align-self: stretch;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  position: relative;
+}
+
+.your-ultimate-fantasy-football-parent {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 1.25rem;
+  width: 78.813rem;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 630px);
+}
+
+.hero, .hero-child {
+  width: 113.75rem;
+  position: absolute;
+  left: calc(50% - 910px);
+}
+
+.hero-child {
+  object-fit: contain;
+  border-radius: 20px;
+  height: 53.125rem;
+  top: 18.125rem;
+}
+
+.hero {
+  text-align: center;
+  height: 71.25rem;
+  font-size: 4.375rem;
+  top: 13.125rem;
+}
+
+.your-fantasy-our {
+  flex: 1;
+  font-weight: 500;
+  line-height: 4.375rem;
+  position: relative;
+}
+
+.as-of-february {
+  align-self: stretch;
+  line-height: 2.125rem;
+  position: relative;
+}
+
+.as-of-february-2024-myfantasy-parent {
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 3.125rem;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.your-fantasy-our-passion-parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6.25rem;
+  width: 78.813rem;
+  display: flex;
+}
+
+.about-us-child {
+  background-color: #e8e8e8;
+  width: 78.875rem;
+  height: .063rem;
+  position: relative;
+}
+
+.our-promise, .we-want-your {
+  align-self: stretch;
+  position: relative;
+}
+
+.our-promise {
+  font-weight: 500;
+}
+
+.we-want-your {
+  color: #767676;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.our-promise-parent {
+  flex-direction: column;
+  flex: 1;
+  gap: 1.25rem;
+}
+
+.about-us1, .frame-group, .our-promise-parent {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-group {
+  flex-direction: row;
+  gap: 6.25rem;
+  width: 78.875rem;
+  font-size: 1.875rem;
+}
+
+.about-us1 {
+  flex-direction: column;
+  gap: 3.25rem;
+  position: absolute;
+  top: 96.875rem;
+  left: calc(50% - 631px);
+}
+
+.discover-the-benefits {
+  align-self: stretch;
+  font-weight: 500;
+  line-height: 4.375rem;
+  position: relative;
+}
+
+.discover-the-benefits-of-myfan-parent {
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 0 16.125rem;
+  display: flex;
+}
+
+.comprehensive-league-managemen {
+  align-self: stretch;
+  font-weight: 500;
+  line-height: 2.5rem;
+  position: relative;
+}
+
+.set-up-your {
+  align-self: stretch;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  position: relative;
+}
+
+.comprehensive-league-managemen-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 1.25rem;
+  display: flex;
+}
+
+.div {
+  text-transform: uppercase;
+  width: 6.25rem;
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 1.875rem;
+  display: inline-block;
+  position: relative;
+}
+
+.frame-parent1 {
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #ff6561;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 26.875rem;
+  padding: 3.125rem;
+  display: flex;
+}
+
+.weve-got-you {
+  width: 24.169rem;
+  line-height: 1.75rem;
+  position: relative;
+}
+
+.frame-parent2, .weve-got-you-covered-parent {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.weve-got-you-covered-parent {
+  color: #5d5d5d;
+  justify-content: flex-start;
+  align-self: stretch;
+  gap: .625rem;
+  height: 8.75rem;
+  font-size: 1.125rem;
+}
+
+.frame-parent2 {
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 20px;
+  flex: 1;
+  justify-content: space-between;
+  height: 26.875rem;
+  padding: 3.125rem;
+}
+
+.set-up-your1 {
+  color: #5d5d5d;
+  width: 24.169rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  display: none;
+  position: relative;
+}
+
+.benefits, .frame-container, .frame-div {
+  justify-content: flex-start;
+  display: flex;
+}
+
+.frame-div {
+  flex-direction: row;
+  align-items: center;
+  gap: 1.875rem;
+  width: 95rem;
+}
+
+.benefits, .frame-container {
+  flex-direction: column;
+}
+
+.frame-container {
+  text-align: left;
+  align-items: flex-start;
+  gap: 1.875rem;
+  font-size: 1.875rem;
+}
+
+.benefits {
+  text-align: center;
+  background-color: #f7f7f7;
+  align-items: center;
+  gap: 6.25rem;
+  padding: 12.5rem;
+  position: absolute;
+  top: 145.563rem;
+  left: calc(50% - 960px);
+}
+
+.our-partners-child {
+  background-color: #0b0a0a;
+  width: 120rem;
+  height: 31.938rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.were-dedicated-to1 {
+  color: #767676;
+  width: 62.75rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  display: none;
+  position: relative;
+}
+
+.our-partners-parent {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  width: 62.75rem;
+  display: flex;
+  position: absolute;
+  top: 9.375rem;
+  left: calc(50% - 532px);
+}
+
+.image-2-icon, .image-7-icon {
+  object-fit: cover;
+  width: 13.625rem;
+  height: 2.5rem;
+  position: relative;
+}
+
+.image-2-icon {
+  width: 5.313rem;
+  height: 5.313rem;
+}
+
+.image-3-icon, .image-5-icon, .image-8-icon {
+  object-fit: cover;
+  width: 10.625rem;
+  height: 3.438rem;
+  position: relative;
+}
+
+.image-5-icon, .image-8-icon {
+  width: 8.063rem;
+  height: 4.75rem;
+}
+
+.image-8-icon {
+  width: 5.938rem;
+  height: 5.938rem;
+}
+
+.image-7-parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8.125rem;
+  display: flex;
+  position: absolute;
+  top: 16.625rem;
+  left: 12.5rem;
+}
+
+.our-partners {
+  text-align: center;
+  color: #fff;
+  width: 123.75rem;
+  height: 31.938rem;
+  font-size: 1.875rem;
+  position: absolute;
+  top: 274.938rem;
+  left: 0;
+}
+
+.discover-what-makes-our-platfo-parent {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  width: 62.75rem;
+  display: flex;
+}
+
+.frame-child {
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  width: 45.938rem;
+  height: 50rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.league-history {
+  align-self: stretch;
+  font-weight: 500;
+  line-height: 3.125rem;
+  position: relative;
+}
+
+.league-history-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.875rem;
+  width: 39.688rem;
+  display: flex;
+  position: absolute;
+  top: 3.125rem;
+  left: 3.125rem;
+}
+
+.object-icon {
+  width: 93.61%;
+  max-width: 100%;
+  height: 49.35%;
+  max-height: 100%;
+  position: absolute;
+  inset: 54.88% 3.13% -4.23% 3.27%;
+  overflow: hidden;
+}
+
+.rectangle-parent {
+  flex-shrink: 0;
+  width: 45.938rem;
+  height: 50rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.object-icon1 {
+  width: 93.61%;
+  max-width: 100%;
+  height: 49.35%;
+  max-height: 100%;
+  position: absolute;
+  inset: 54.88% -12.24% -4.23% 18.64%;
+  overflow: hidden;
+}
+
+.customize-your-fantasy {
+  align-self: stretch;
+  line-height: 1.75rem;
+  position: relative;
+}
+
+.franchise-logos-league-logos-i {
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  padding-left: 1.333rem;
+}
+
+.we-offer-support {
+  width: 39.688rem;
+  line-height: 1.75rem;
+  display: none;
+  position: relative;
+}
+
+.customize-your-fantasy-footbal-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: .625rem;
+  display: flex;
+}
+
+.frame-wrapper {
+  flex-direction: column;
+  align-self: stretch;
+  font-size: 1.125rem;
+}
+
+.customizable-appearance-option-parent, .frame-parent12, .frame-wrapper {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.customizable-appearance-option-parent {
+  flex-direction: column;
+  gap: 1.875rem;
+  width: 39.688rem;
+  position: absolute;
+  top: 3.125rem;
+  left: 3.188rem;
+}
+
+.frame-parent12 {
+  flex-direction: row;
+  gap: 3.062rem;
+  font-size: 2.5rem;
+}
+
+.iconarrow-up-right {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.button2 {
+  color: #fff;
+  background-color: #ff4a45;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+  padding: .937rem 1.375rem;
+  font-size: 1rem;
+  display: flex;
+}
+
+.features1, .hear-from-our-fans-parent {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  position: absolute;
+}
+
+.features1 {
+  justify-content: flex-start;
+  gap: 6.25rem;
+  top: 319.375rem;
+  left: 12.5rem;
+}
+
+.hear-from-our-fans-parent {
+  justify-content: center;
+  gap: 1.25rem;
+  width: 62.75rem;
+  top: 0;
+  left: 8.031rem;
+}
+
+.frame-inner {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 3.75rem;
+  height: 3.75rem;
+  position: relative;
+}
+
+.denver-us, .esther-howard {
+  align-self: stretch;
+  font-weight: 500;
+  line-height: 1.875rem;
+  position: relative;
+}
+
+.denver-us {
+  color: #767676;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.ellipse-parent, .esther-howard-parent {
+  justify-content: flex-start;
+  display: flex;
+}
+
+.esther-howard-parent {
+  flex-direction: column;
+  flex: 1;
+  align-items: flex-start;
+}
+
+.ellipse-parent {
+  flex-direction: row;
+  align-self: stretch;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+.myfantasyleague-is-a-game-chan-parent, .the-support-team-at-myfantasyl-parent {
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30.438rem;
+  padding: 3.125rem;
+  display: flex;
+}
+
+.myfantasyleague-is-a-game-chan-parent {
+  justify-content: flex-start;
+  gap: 9.375rem;
+}
+
+.the-support-team-at-myfantasyl-parent {
+  justify-content: space-between;
+  height: 30rem;
+}
+
+.frame-parent13 {
+  text-align: left;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 3.125rem;
+  font-size: 1.25rem;
+  display: flex;
+  position: absolute;
+  top: 15.625rem;
+  left: 0;
+}
+
+.group-child, .group-item {
+  background-color: #e8e8e8;
+  border-radius: 3px;
+  width: 62.75rem;
+  height: .125rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.group-item {
+  background-color: #ff4a45;
+  width: 18.813rem;
+}
+
+.rectangle-container, .testimonial {
+  width: 62.75rem;
+  height: .125rem;
+  position: absolute;
+  top: 50.625rem;
+  left: 8.063rem;
+}
+
+.testimonial {
+  text-align: center;
+  width: 97.563rem;
+  height: 50.75rem;
+  top: 411.25rem;
+  left: 20.563rem;
+}
+
+.fantasy-insights-and-updates-parent {
+  text-align: center;
+  color: #0b0a0a;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  width: 62.75rem;
+  font-size: 3.75rem;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 502px);
+}
+
+.button3, .child {
+  position: absolute;
+}
+
+.child {
+  object-fit: cover;
+  border-radius: 20px;
+  width: 30.438rem;
+  height: 19.375rem;
+  top: 0;
+  left: 0;
+}
+
+.button3 {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+  padding: .937rem 1.375rem;
+  display: flex;
+  top: 14.375rem;
+  left: 1.875rem;
+}
+
+.fitzs-fantasy-football {
+  color: #fff;
+  align-self: stretch;
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  position: relative;
+}
+
+.jun-1-2024-parent {
+  color: #cdcdcd;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: .312rem;
+  width: 23.25rem;
+  display: flex;
+  position: absolute;
+  top: 1.875rem;
+  left: 1.875rem;
+}
+
+.div9 {
+  width: 30.438rem;
+  height: 19.375rem;
+  position: absolute;
+  top: 0;
+  left: 64.563rem;
+}
+
+.dbros-top-draft {
+  margin: 0;
+}
+
+.div10, .inner {
+  position: absolute;
+}
+
+.div10 {
+  width: 30.438rem;
+  height: 19.375rem;
+  top: 21.25rem;
+  left: 64.563rem;
+}
+
+.inner {
+  object-fit: cover;
+  border-radius: 20px;
+  width: 62.688rem;
+  height: 40.625rem;
+  top: 0;
+  left: 0;
+}
+
+.button5, .june-3-2024-parent, .texas-rangers-finish-in-second-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.texas-rangers-finish-in-second-parent {
+  color: #fff;
+  gap: 1.25rem;
+  width: 43.75rem;
+  font-size: 2.5rem;
+}
+
+.button5, .june-3-2024-parent {
+  gap: .312rem;
+  position: absolute;
+  top: 3.125rem;
+  left: 3.125rem;
+}
+
+.button5 {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+  padding: .937rem 1.375rem;
+  top: 34.375rem;
+}
+
+.div11, .parent {
+  height: 40.625rem;
+  left: 0;
+}
+
+.div11 {
+  color: #cdcdcd;
+  width: 62.688rem;
+  position: absolute;
+  top: 0;
+}
+
+.parent {
+  width: 95rem;
+  top: 15.625rem;
+}
+
+.blogs, .button6, .parent {
+  position: absolute;
+}
+
+.button6 {
+  background-color: #ff4a45;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+  padding: .937rem 1.375rem;
+  display: flex;
+  top: 62.5rem;
+  left: calc(50% - 80px);
+}
+
+.blogs {
+  color: #fff;
+  width: 95rem;
+  height: 65.625rem;
+  font-size: 1rem;
+  top: 565rem;
+  left: calc(50% - 760px);
+}
+
+.fantasy-football-tools-parent {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.25rem;
+  width: 38.5rem;
+  display: flex;
+}
+
+.adp-rankings {
+  flex: 1;
+  font-weight: 500;
+  line-height: 2.125rem;
+  position: relative;
+}
+
+.arrow-right-icon {
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.tools {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+  width: 34.125rem;
+  display: flex;
+}
+
+.rectangle-div {
+  background-color: #2f2f2f;
+  align-self: stretch;
+  height: .063rem;
+  position: relative;
+}
+
+.fantasy-tools1, .tools-parent {
+  align-items: flex-start;
+  display: flex;
+}
+
+.tools-parent {
+  color: #949494;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.875rem;
+  font-size: 1.5rem;
+}
+
+.fantasy-tools1 {
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #0b0a0a;
+  flex-direction: row;
+  justify-content: center;
+  gap: 6.25rem;
+  width: 120rem;
+  padding: 12.5rem 20.562rem;
+  position: absolute;
+  top: 474.5rem;
+  left: 0;
+}
+
+.frequently-asked-question {
+  font-weight: 500;
+  line-height: 4.375rem;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 388px);
+}
+
+.how-do-i {
+  align-self: stretch;
+  font-weight: 500;
+  line-height: 1.75rem;
+  position: relative;
+}
+
+.to-join-a {
+  width: 59.375rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  display: none;
+  position: relative;
+}
+
+.faq, .icon {
+  flex-direction: row;
+  display: flex;
+}
+
+.icon {
+  border-radius: 34px;
+  justify-content: center;
+  align-items: center;
+  padding: .125rem 0;
+}
+
+.faq {
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 1.875rem;
+}
+
+.frame-child9 {
+  background-color: #e8e8e8;
+  align-self: stretch;
+  height: .063rem;
+  position: relative;
+}
+
+.faq-parent, .faqs {
+  width: 62.75rem;
+  position: absolute;
+}
+
+.faq-parent {
+  text-align: left;
+  color: #767676;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.875rem;
+  font-size: 1.5rem;
+  display: flex;
+  top: 10.625rem;
+  left: 0;
+}
+
+.faqs {
+  text-align: center;
+  height: 45.75rem;
+  top: 628rem;
+  left: calc(50% - 502px);
+}
+
+.try-myfantasyleague-for {
+  align-self: stretch;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  position: relative;
+}
+
+.create-a-free-trial-league-tod-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+  width: 62.75rem;
+  display: flex;
+}
+
+.button7 {
+  text-align: left;
+  color: #ff4a45;
+  background-color: #fff;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+  padding: .937rem 1.375rem;
+  font-size: 1rem;
+  display: flex;
+}
+
+.cta, .footer-child {
+  width: 120rem;
+  position: absolute;
+  left: 0;
+}
+
+.cta {
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  background-color: #ff6561;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3.125rem;
+  padding: 6.25rem 28.625rem;
+  font-size: 2.5rem;
+  display: flex;
+  top: 701.375rem;
+}
+
+.footer-child {
+  height: 30.063rem;
+  top: 0;
+}
+
+.privacy-policy-parent {
+  text-align: left;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+  display: flex;
+}
+
+.copyright-1995-2024-first-pi-parent {
+  box-sizing: border-box;
+  text-align: center;
+  border-top: 1px solid #ffffff1a;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 120rem;
+  padding: 1.25rem 9.375rem;
+  display: flex;
+  position: absolute;
+  top: 26.375rem;
+  left: 0;
+}
+
+.community-forums {
+  align-self: stretch;
+  line-height: 1.875rem;
+  position: relative;
+}
+
+.privacy-policy-group {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.25rem;
+  width: 15.519rem;
+  display: none;
+}
+
+.iconlocate-fixed {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.iconlocate-fixed-wrapper {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: .125rem 0;
+  display: flex;
+}
+
+.first-pick-labs {
+  flex: 1;
+  line-height: 1.75rem;
+  position: relative;
+}
+
+.frame-parent17, .iconmail-parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: .937rem;
+  display: flex;
+}
+
+.iconmail-parent {
+  align-items: center;
+}
+
+.social-mediatwitter-2-negat {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.social-mediatwitter-2-negat-wrapper {
+  background-color: #ffffff1a;
+  border-radius: 44px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: .937rem;
+  display: flex;
+}
+
+.follow-us-parent {
+  color: #767676;
+  flex-direction: column;
+  align-self: stretch;
+  gap: .625rem;
+  font-size: 1.25rem;
+}
+
+.follow-us-parent, .frame-parent14, .frame-parent15 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-parent15 {
+  color: #fff;
+  flex-direction: column;
+  flex: 1;
+  gap: 1.875rem;
+  font-size: 1.125rem;
+}
+
+.frame-parent14 {
+  flex-direction: row;
+  gap: 1.25rem;
+  width: 65.813rem;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 6.25rem;
+  left: calc(50% - 243px);
+}
+
+.group-icon3 {
+  width: 60.63%;
+  max-width: 100%;
+  height: 37.31%;
+  max-height: 100%;
+  position: absolute;
+  inset: 62.69% 39.05% 0 .32%;
+  overflow: hidden;
+}
+
+.logos1 {
+  width: 17.5rem;
+  height: 3.125rem;
+  position: absolute;
+  top: 6.25rem;
+  left: calc(50% - 810px);
+}
+
+.this-site-is {
+  width: 22.375rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  display: inline-block;
+  position: absolute;
+  top: 6.25rem;
+  left: 9.375rem;
+}
+
+.footer {
+  color: #767676;
+  width: 120rem;
+  height: 30.063rem;
+  font-size: 1rem;
+  position: absolute;
+  top: 730.125rem;
+  left: 0;
+}
+
+.landing-page {
+  text-align: left;
+  color: #0b0a0a;
+  background-color: #fff;
+  width: 100%;
+  height: 760.188rem;
+  font-family: Inter;
+  font-size: 3.75rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.to-join-a {
+  transition: all .3s ease-in-out;
+  display: none;
+}
+
+.icon {
+  cursor: pointer;
+}
+/*# sourceMappingURL=home.b11a88bd.css.map */
