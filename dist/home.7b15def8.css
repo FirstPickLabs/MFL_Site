@@ -1,15 +1,9 @@
-@import "https://fonts.googleapis.com/css?family=Nunito:400,600,700";
 body {
-  font-family: Nunito, sans-serif;
+  margin: 8px;
+  font-family: Inter;
+  font-size: 3.75rem;
   overflow-x: hidden;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: Nunito, sans-serif;
-}
-
-h1.font-weight-bold, h2.font-weight-bold, h3.font-weight-bold, h4.font-weight-bold, h5.font-weight-bold, h6.font-weight-bold {
-  font-weight: 600 !important;
+  color: #2f4f4f !important;
 }
 
 a, a:hover, a:focus, button, button:focus {
@@ -25,7 +19,7 @@ a, a:hover, a:focus, button, button:focus {
 .back_top {
   text-align: center;
   z-index: 10000;
-  background-color: #5584ff;
+  background-color: #ff4a45;
   border-radius: 3px;
   width: 35px;
   height: 35px;
@@ -41,6 +35,14 @@ a, a:hover, a:focus, button, button:focus {
   font-size: 32px;
   line-height: 35px;
   display: block;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.mr-1 {
+  margin-right: 1rem !important;
 }
 
 .section {
@@ -90,7 +92,7 @@ a, a:hover, a:focus, button, button:focus {
 }
 
 .text-custom {
-  color: #5584ff !important;
+  color: #ff4a45 !important;
 }
 
 .text-custom-blue {
@@ -129,7 +131,9 @@ a, a:hover, a:focus, button, button:focus {
 }
 
 .btn {
-  padding: 10px 24px;
+  border-radius: 10px;
+  padding: .937rem 1.375rem;
+  line-height: 1.25rem;
 }
 
 .btn-rounded {
@@ -137,34 +141,33 @@ a, a:hover, a:focus, button, button:focus {
 }
 
 .btn-outline-custom {
-  color: #5584ff;
+  color: #ff4a45;
   letter-spacing: 1px;
   text-transform: capitalize;
-  border: 2px solid #5584ff;
-  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #ff4a45;
   transition: all .5s;
 }
 
 .btn-outline-custom:hover, .btn-outline-custom:focus, .btn-outline-custom:active, .btn-outline-custom.active, .btn-outline-custom.focus, .btn-outline-custom:active, .btn-outline-custom:focus, .btn-outline-custom:hover, .open > .dropdown-toggle.btn-outline-custom {
-  background: #344eea2b;
-  color: #5584ff !important;
-  border-color: #5584ff !important;
+  background: #fff;
+  color: #ff4a45 !important;
+  border-color: #ff4a45 !important;
 }
 
 .btn-custom {
   color: #fff;
   letter-spacing: 1px;
   text-transform: capitalize;
-  background-color: #5584ff;
-  border: 2px solid #5584ff;
-  border-radius: 5px;
+  background-color: #ff4a45;
+  border: 1px solid #ff4a45;
   transition: all .5s;
 }
 
 .btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active, .btn-custom.focus, .btn-custom:active, .btn-custom:focus, .btn-custom:hover, .open > .dropdown-toggle.btn-custom {
   color: #fff;
-  background-color: #4e74d6;
-  border-color: #4e74d6;
+  background-color: #ff4a45;
+  border-color: #ff4a45;
 }
 
 .vertical-content {
@@ -178,24 +181,26 @@ a, a:hover, a:focus, button, button:focus {
 
 .custom-nav {
   z-index: 999;
-  background-color: #0000;
+  background-color: #fff;
+  border-bottom: thin solid #e8e8e8;
   border-radius: 0;
   width: 100%;
   margin-bottom: 0;
-  padding: 22px 0;
+  padding: 0;
+  font-size: 1rem;
   transition: all .5s ease-in-out;
 }
 
 .custom-nav.stickyadd {
   background-color: #fff;
-  padding: 15px 0;
+  padding: 0;
   box-shadow: 0 0 18px 1px #0000001a;
 }
 
 .custom-nav .navbar-nav li a {
-  color: #fff;
+  color: #0b0a0a;
   margin: 0 12px;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 400;
   transition: all .4s;
   position: relative;
@@ -224,7 +229,7 @@ a, a:hover, a:focus, button, button:focus {
 
 .custom-nav.stickyadd .navbar-nav li a:after, .custom-nav .navbar-nav li a:after {
   content: "";
-  background: #5584ff;
+  background: #ff4a45;
   width: 0;
   height: 2px;
   margin: auto;
@@ -233,7 +238,7 @@ a, a:hover, a:focus, button, button:focus {
 }
 
 .custom-nav.stickyadd .navbar-nav li a.active, .custom-nav.stickyadd .navbar-nav li:hover a, .custom-nav.stickyadd .navbar-nav li:active a, .custom-nav .navbar-nav li a.active, .custom-nav .navbar-nav li:hover a, .custom-nav .navbar-nav li:active a {
-  color: #5584ff;
+  color: #ff4a45;
 }
 
 .custom-nav.stickyadd .navbar-nav li a.active:after, .custom-nav.stickyadd .navbar-nav li:hover a:after, .custom-nav.stickyadd .navbar-nav li:active a:after, .custom-nav .navbar-nav li a.active:after, .custom-nav .navbar-nav li:hover a:after, .custom-nav .navbar-nav li:active a:after, .anim-middleout:hover:after {
@@ -242,7 +247,7 @@ a, a:hover, a:focus, button, button:focus {
 
 .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
   background-color: #0000;
-  border-color: #5584ff;
+  border-color: #ff4a45;
 }
 
 .logo .logo-light, .stickyadd .logo .logo-dark {
@@ -254,11 +259,11 @@ a, a:hover, a:focus, button, button:focus {
 }
 
 .custom-nav .navbar-brand.logo img {
-  height: 28px;
+  height: 90px;
 }
 
 .custom-nav .sign_btn {
-  color: #5584ff;
+  color: #ff4a45;
   background-color: #13ce6730;
 }
 
@@ -298,7 +303,7 @@ a, a:hover, a:focus, button, button:focus {
 }
 
 .pro_condition li a:hover {
-  color: #5584ff !important;
+  color: #ff4a45 !important;
 }
 
 .pro_condition li:after {
@@ -387,7 +392,7 @@ a, a:hover, a:focus, button, button:focus {
 }
 
 .features_col .features_list .features_list_num {
-  color: #5584ff;
+  color: #ff4a45;
   text-align: center;
   background-color: #5584ff26;
   border-radius: 7px;
@@ -399,7 +404,7 @@ a, a:hover, a:focus, button, button:focus {
 }
 
 .features_list .features_icon i {
-  color: #5584ff;
+  color: #ff4a45;
   background-color: #5584ff26;
   border-radius: 10px;
   width: 52px;
@@ -424,7 +429,7 @@ a, a:hover, a:focus, button, button:focus {
 }
 
 .features_divider {
-  background-color: #5584ff;
+  background-color: #ff4a45;
   width: 60px;
   height: 2px;
 }
@@ -436,7 +441,7 @@ a, a:hover, a:focus, button, button:focus {
 
 .features_desc .features-icon {
   text-align: center;
-  color: #5584ff;
+  color: #ff4a45;
   background: #5584ff30;
   border-radius: 50%;
   width: 26px;
@@ -484,7 +489,7 @@ a, a:hover, a:focus, button, button:focus {
   border: 4px solid #fff;
   border-radius: 50%;
   margin: 20px 4px;
-  box-shadow: 0 0 0 2px #5584ff;
+  box-shadow: 0 0 0 2px #ff4a45;
 }
 
 .owl-theme .owl-controls .owl-page span {
@@ -498,7 +503,7 @@ a, a:hover, a:focus, button, button:focus {
   margin: 0;
   transition: all .5s;
   display: block;
-  background: #5584ff !important;
+  background: #ff4a45 !important;
 }
 
 .client_section .owl-theme .owl-controls .owl-page.active span {
@@ -552,7 +557,7 @@ a, a:hover, a:focus, button, button:focus {
 
 .price_box.active .lable {
   text-align: center;
-  background: #5584ff;
+  background: #ff4a45;
   width: 200px;
   padding: 6px 0;
   position: absolute;
@@ -615,7 +620,7 @@ a, a:hover, a:focus, button, button:focus {
 }
 
 ul.footer_menu_list li a:hover {
-  color: #5584ff;
+  color: #ff4a45;
   transition: all .3s;
 }
 
@@ -640,7 +645,7 @@ ul.footer_menu_list li a {
 }
 
 .fot_social .social-icon:hover {
-  color: #5584ff !important;
+  color: #ff4a45 !important;
 }
 
 .footer_logo {
@@ -672,7 +677,7 @@ ul.footer_menu_list li a {
   }
 
   .custom-nav .navbar-nav li a.active {
-    color: #5584ff;
+    color: #ff4a45;
   }
 
   .custom-nav > .container {
@@ -772,7 +777,11 @@ ul.footer_menu_list li a {
 
 @media screen and (width >= 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 98%;
   }
+}
+
+.bold {
+  font-weight: 800 !important;
 }
 /*# sourceMappingURL=home.7b15def8.css.map */
